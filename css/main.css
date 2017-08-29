@@ -1,0 +1,53 @@
+/**
+ * BASE
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+  background: #f6f6ef;
+}
+
+main {
+  display: flex;
+}
+
+a {
+  color: inherit;
+}
+
+.content {
+  margin: auto;
+}
+
+.content .logo img {
+  height: 4em;
+}
+
+.content .description {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.content .description .title {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.content .description .message {
+  margin-bottom: 1em;
+}
+
+.content .description .envelope {
+  font-size: 3em;
+}
