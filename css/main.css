@@ -51,3 +51,13 @@ a {
 .content .description .envelope {
   font-size: 3em;
 }
+
+.content .bar-chart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.content .bar-chart .bar {
+  stroke: #f6f6ef;
+}
